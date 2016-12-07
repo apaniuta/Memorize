@@ -1,0 +1,23 @@
+.closed {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 48px;
+    color: darkcyan;
+    cursor: pointer;
+    user-select: none;
+    width: 80px;
+    height: 80px;
+    margin: 5px;
+    text-align: center;
+    border: 1px solid darkcyan;
+    border-radius: 5px;
+    background-color: darkcyan;
+}
+
+.opened {
+    composes: closed;
+
+    background-color: white;
+}
+
